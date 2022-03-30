@@ -1,0 +1,11 @@
+version: '2.0'
+duration: 90
+project: arisKoutsou/zip-rs
+target: extract
+tasks:
+  - name: exploitability_factors
+  - name: regression_testing
+  - name: behavior_testing
+  - name: coverage_analysis
+cmds:
+  - cmd: /workdir/target/debug/examples/extract @@
